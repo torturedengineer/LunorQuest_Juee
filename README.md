@@ -20,3 +20,32 @@ We used machine learning models — Random Forest, Prophet, and LSTM — to fore
 ---
 
 ### 🗂️ Repository Structure
+├── data/ # Raw and cleaned CREMP datasets (2023)
+├── outputs/ # Generated figures, visualizations, forecasts
+├── notebooks/ # Python notebooks with full analysis
+├── report/ # Final LaTeX source and compiled PDF report 
+├── README.md # This file └── requirements.txt # Python libraries used
+
+---
+
+### 🔮 Key Findings
+- Coral cover is projected to continue declining without urgent conservation.
+- Disease prevalence and species richness emerged as key indicators.
+- Scenario simulation under +2°C warming predicts extreme reef vulnerability.
+- Random Forest models achieved over 98% predictive accuracy.
+
+---
+
+### 📚 Datasets
+- Coral Reef Evaluation and Monitoring Project (CREMP) — 2023 Edition
+
+---
+
+### 📋 Requirements
+Install dependencies via:
+
+```bash
+pip install -r requirements.txt
+
+---
+
